@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    direction: ltr;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 21, 79);
+    color: #fff;
+    width: 100%;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    font-size: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+img {
+    width: 55px;
+    margin-left: 15px;
+}
